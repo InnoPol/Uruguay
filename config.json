@@ -1,0 +1,50 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": "Topic Cluster & Innovationsfelder Uruguay"
+  },
+  "legend": {
+    "edgeLabel": "ASJC-Verbindung",
+    "colorLabel": "Innovationsfeld",
+    "nodeLabel": "Komplementarität des Topic Clusters"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "if",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "light",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 18
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.7,
+      "minEdgeSize": 0.3,
+      "minNodeSize": 2,
+      "maxNodeSize": 36
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
